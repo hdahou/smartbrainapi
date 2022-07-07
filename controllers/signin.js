@@ -22,7 +22,7 @@ const signin = (req, res, db, bcrypt) => {
         }
     })
     .catch(err => {
-        res.json('sing in failed')
+        res.json('sign in failed')
     })
 }
 
